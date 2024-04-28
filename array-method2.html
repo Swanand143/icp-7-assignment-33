@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Method 2</title>
+</head>
+<body>
+    <script>
+
+        let girls = ['abc','def','xyz','pqr']
+        console.log(girls.indexOf('xyz'))
+
+        let colors = ['red','green','blue','yellow']
+        colors.splice(1,2)
+        console.log(colors)
+
+        let citis = ['Dhaka','Chittagong','Rajshahi','Khulna']
+        citis.splice(1,1,'Barisal')
+        console.log(citis)
+
+        let fruits = ['apple','banana','orange','mango']
+        console.log(fruits.includes('orange'))
+
+        let numbers = [10,20,30,40,50]
+        console.log(typeof numbers)
+
+        let contris = ['Bangladesh','India','Pakistan','Nepal']
+        console.log(Array.isArray(contris))
+
+        let birds = ['peacock','sparrow','pigeon','crow']
+        console.log(birds.reverse())
+
+        let phones = ['iphone','samsung','nokia','oppo']
+        console.log(phones.sort())
+        
+        let cars = ['bmw','audi','toyota','honda']
+        console.log(cars.sort().reverse())
+        
+        let bikes = ['yamaha','suzuki','honda','kawasaki']
+        console.log(bikes.join("*"))
+        
+    </script>
+</body>
+</html>
